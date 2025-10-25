@@ -174,6 +174,71 @@ print(df_tratado.isnull().sum())
 
 Parte 3: Operações Numéricas e Estatísticas
 
+Para ter um resumo estatístico das colunas numéricas, usamos:
+
+```python
+# Usamos o .describe() no DataFrame TRATADO
+print(df_tratado.describe())
 ```
 
-Parte 3: Operações Numéricas e Estatísticas
+Dessa forma, obtemos o valor da média, desvio padrão, valor mínimo, valor máximo e os quartis de colunas, e assim temos um panorama da saúde do grupo. Esse comando também identifica outliers, simetria dos dados.
+
+O resumo estatístico geral é muito útil, mas para fazer cálculos mais específicos usamos o Numpy. 
+
+Se quisermos, por exemplo, fazer um agrupamento? Comparando grupos diferentes...
+
+Ex: Como as características dos pacientes com diabetes se comparam às dos pacientes sem diabetes?
+Podemos agrupar os dados pela coluna Outcome (o resultado) e calcular a média de cada grupo.
+
+```python
+# Agrupa por 'Outcome' e calcula a média de todas as outras colunas
+print(df_tratado.groupby('Outcome').mean())
+```
+
+Ao excutar, vemos que o nível médio de 'Glucose' é visivelmente maior no grupo 1 (142.13) isto é, nos pacientes com diabetes, do que no grupo 0 (110.68) pacientes sem diabetes.
+
+Esse tipo de agrupamento é fundamental para identificar padrões.
+
+Além disso, também podemos entender como as variáveis se relacionam entre si. 
+
+Por exemplo, quais fatores têm maior relação com o diabetes?
+
+Ou 
+
+Será que o nível de glicose aumenta conforme o IMC aumenta? 
+
+Uma maneira de medir a força da relação entre duas variáveis numéricas é calcular a correlação.
+
+Podemos calcular a correlação: um número de -1 a 1 que mede a força da relação entre duas variáveis.
+Em que 
+Perto de 1: Correlação muito forte 
+Perto de 0: Sem correlação clara (fraca)
+
+```python
+# Calcula a matriz de correlação
+print(df_tratado.corr())
+```
+
+Analisando a linha resultado (Outcome), podemos ver quais fatores têm a correlação mais forte com o diagnóstico de diabetes. Vemos que a glicose (Glucose) tem a maior correlação positiva, o que faz total sentido clinicamente.
+
+Vemos que a glicose (Glucose) tem a maior correlação positiva, o que faz total sentido clinicamente. 
+
+Obs: maior em relação às outras variáveis, observe:
+
+Pregnancies: 0.221
+## Glucose: 0.492
+BloodPressure: 0.165
+SkinThickness: 0.214
+Insulin: 0.203
+BMI: 0.312
+DiabetesPedigreeFunction: 0.173
+Age: 0.238
+
+Neste projeto, nós conseguimos:
+
+Importar e preparar o conjunto de dados diabetes.csv.
+Realizar a limpeza e tratamento de dados faltantes.
+Extrair informações estatísticas e descobrir que a Glicose tem a correlação mais forte com o diagnóstico neste conjunto de dados.
+
+Dominar essas técnicas nos auxilia na tomada de decisão, no entendimento sobre o perfil de nossos pacientes e otimização de tratamentos. 
+
