@@ -199,30 +199,25 @@ Ao excutar, vemos que o nível médio de 'Glucose' é visivelmente maior no grup
 
 Esse tipo de agrupamento é fundamental para identificar padrões.
 
-Além disso, também podemos entender como as variáveis se relacionam entre si. 
+Além do resumo estatístico geral, também podemos entender como as variáveis se relacionam entre si e responder perguntas como:
 
-Por exemplo, quais fatores têm maior relação com o diabetes?
-
-Ou 
+Quais fatores têm maior relação com o diabetes?
 
 Será que o nível de glicose aumenta conforme o IMC aumenta? 
 
-Uma maneira de medir a força da relação entre duas variáveis numéricas é calcular a correlação.
-
-Podemos calcular a correlação: um número de -1 a 1 que mede a força da relação entre duas variáveis.
-
-Em que 
-* Perto de 1: Correlação muito forte 
-* Perto de 0: Sem correlação clara (fraca)
+Uma maneira de medir a força da relação é calcular o coeficiente de correlação, onde:
+* Valor próximo de 1: correlação positiva forte
+* Valor próximo de -1: correlação negativa forte.
+* Valor próximo de 0: Sem correlação clara (fraca)
 
 ```python
 # Calcula a matriz de correlação
 print(df_tratado.corr())
 ```
 
-Analisando a linha resultado (Outcome), podemos ver quais fatores têm a correlação mais forte com o diagnóstico de diabetes. Vemos que a glicose (Glucose) tem a maior correlação positiva, o que faz total sentido clinicamente.
+Analisando a linha Resultado (Outcome), notamos que a Glicose (Glucose) possui a correlação positiva mais forte. Isso faz total sentido clinicamente, já que níveis elevados de glicose são o principal indicador usado para diagnosticar o diabetes.
 
-Obs: maior em relação às outras variáveis, observe:
+# Observe:
 
 * Pregnancies: 0.221
 * **Glucose: 0.492**
