@@ -91,7 +91,13 @@ print("Transposta:\n", matriz.T)
 ```
 
 
-A forma como você agrupa os números nos colchetes vai definir exatamente como essa matriz será montada. Percebam que temos duas listas internas. A primeira, [1, 2, 3], se torna a primeira linha, e a segunda, [4, 5, 6], se torna a segunda linha. Observem também que o número de elementos dentro de cada linha define o número de colunas. Como cada linha tem 3 números, a nossa matriz tem 3 colunas. Quando usamos o comando T, realizamos o processo de transposição. Basicamente, as linhas da matriz original se tornam as colunas da nova matriz. Como a nossa matriz original tinha 2 linhas e 3 colunas, a transposta passará a ter 3 linhas e 2 colunas.
+A forma como você agrupa os números nos colchetes vai definir exatamente como essa matriz será montada. Percebam que temos duas listas internas. A primeira, [1, 2, 3], se torna a primeira linha, e a segunda, [4, 5, 6], se torna a segunda linha.
+
+
+Observem também que o número de elementos dentro de cada linha define o número de colunas. Como cada linha tem 3 números, a nossa matriz tem 3 colunas. 
+
+
+Quando usamos o comando T, realizamos o processo de transposição. Basicamente, as linhas da matriz original se tornam as colunas da nova matriz. Como a nossa matriz original tinha 2 linhas e 3 colunas, a transposta passará a ter 3 linhas e 2 colunas.
 
 
 ## 🛠️ Ferramenta 2: Pandas
