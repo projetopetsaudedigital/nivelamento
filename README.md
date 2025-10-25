@@ -221,12 +221,10 @@ print(df_tratado.corr())
 
 Analisando a linha resultado (Outcome), podemos ver quais fatores têm a correlação mais forte com o diagnóstico de diabetes. Vemos que a glicose (Glucose) tem a maior correlação positiva, o que faz total sentido clinicamente.
 
-Vemos que a glicose (Glucose) tem a maior correlação positiva, o que faz total sentido clinicamente. 
-
 Obs: maior em relação às outras variáveis, observe:
 
 Pregnancies: 0.221
-*Glucose: 0.492*
+**Glucose: 0.492**
 BloodPressure: 0.165
 SkinThickness: 0.214
 Insulin: 0.203
