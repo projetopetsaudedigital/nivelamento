@@ -28,8 +28,8 @@ Primeiro, importamos a biblioteca:
 # Usamos 'np' como um apelido (para não precisar repetir 'numpy' novamente.
 import numpy as np
 
-Criando um Array Simples
-Vamos criar um array (um vetor) de 1 dimensão. Todos os valores devem ser do mesmo tipo, por exemplo, todos os números decimais ou todos os números inteiros.
+# Criando um Array Simples
+# Vamos criar um array (um vetor) de 1 dimensão. Todos os valores devem ser do mes
 
 # Criando um array simples de números inteiros
 arr = np.array([10, 20, 30, 40, 50], np.int16)
