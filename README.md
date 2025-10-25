@@ -34,7 +34,11 @@ Vamos criar um array (um vetor) de 1 dimensão. Todos os valores devem ser do me
 # Criando um array simples de números inteiros
 arr = np.array([10, 20, 30, 40, 50], np.int16)
 print("Array:", arr)
+```
 
+Ao executar o código, podemos ver o resultado. Note que aparecem os números escolhidos.
+
+```python
 Operações Vetorizadas
 Veja como é fácil aplicar operações a todos os números de uma vez:
 # Operações matemáticas vetorizadas
@@ -67,7 +71,50 @@ Enquanto o numpy lida com as operações numéricas, o pandas lida com a manipul
 
 ### Prática com NumPy e Pandas
 
-Agora em diante, vamos aprender como importar e preparar um conjunto de dados, realizar limpeza e tratamento de dados, bem como executar operações numéricas e estatísticas, usando tanto o pandas como o numpy.
+Agora que vimos o básico de operações numéricas com NumPy, vamos usar o Pandas (que usa o NumPy por baixo dos panos) para importar, limpar e analisar um conjunto de dados real.
+
+Usaremos um conjunto de dados sobre diabetes (diabetes.csv).
+
+Parte 1: Importando e Conhecendo os Dados
+
+O primeiro passo é carregar os dados para o ambiente de análise e fazer uma primeira inspeção, para conhecer os dados. 
+
+Mas antes disso, vamos importar o pandas e o numpy, usando o comando:
+```python
+import pandas as pd
+import numpy as np
+```
+Agora, vamos ler o arquivo CSV e criar uma "tabela" que o Pandas chama de DataFrame.
+```python
+df = pd.read_csv('diabetes.csv')
+```
+
+## Conhecendo os dados
+
+```python
+# Ver as primeiras 5 linhas da tabela
+print(df.head())
+
+# Ver o tamanho (linhas, colunas)
+print(df.shape) # Resultado: (768, 9)
+
+# Ver um resumo dos tipos de dados e se há valores nulos
+print(df.info())
+```
+
+Conhecendo as Colunas:
+
+- Pregnancies: Número de gestações.
+- Glucose: Nível de glicose no sangue.
+- BloodPressure: Pressão arterial.
+- SkinThickness: Medida da dobra cutânea.
+- Insulin: Nível de insulina.
+- BMI: Índice de Massa Corporal.
+- DiabetesPedigreeFunction: Predisposição genética.
+- Age: Idade.
+- Outcome: Resultado (1 = tem diabetes, 0 = não tem).
+
+
 
 
 
