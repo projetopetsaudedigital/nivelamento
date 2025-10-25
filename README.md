@@ -114,7 +114,56 @@ Conhecendo as Colunas:
 - Age: Idade.
 - Outcome: Resultado (1 = tem diabetes, 0 = não tem).
 
+Parte 2: Limpeza e Tratamento dos Dados
 
+A etapa de limpeza é uma etapa fundamental, é o momento em que verificamos se no nosso conjunto de dados há erros de digitação, dados faltantes, tipo de dado errado. A limpeza garante que a nossa análise seja confiável.
 
+Executando o df.info(), vimos que NÃO há dados "faltantes" (NaN). 
 
+Porém, ao investigar os dados mais adiante, usando o df.describe(), percebemos que os dados ausentes foram, na verdade, preenchidos com o número zero (0).
 
+Sendo assim, sabemos que é fisicamente impossível ter valor de glicose 0 ou de pressão arterial 0. Ou seja, isso significa que existem dados faltantes no conjunto de dados.
+
+Para resolver esse problema e tratar os dados vamos fazer as seguintes operações:
+```python
+# 1. Criar uma cópia para não alterar o original
+df_tratado = df.copy()
+
+# 2. Definir colunas onde '0' é um dado faltante
+colunas_problematicas = ['Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI']
+
+# 3. Substituir '0' por 'NaN' (Not a Number), que é o marcador correto
+df_tratado[colunas_problematicas] = df_tratado[colunas_problematicas].replace(0, np.nan)
+
+# 4. Verificar quantos dados faltantes (NaN) temos agora
+print(df_tratado.isna().sum())
+```
+
+Agora sim vemos os dados faltantes. Dos 768 pacientes, 227 estão com o dado de medida da dobra cutânea faltando, e 374 com o dado da insulina faltando.
+
+Preenchendo os dados faltantes
+
+Poderíamos substituir os dados ausentes por zero usando o comando:
+
+```python
+df=df.fillna (0)
+```
+Então, se tiver algum valor ausente, o fillna substitui por esse valor.
+Ainda podemos também usar a média, no entanto, como a média é fortemente influenciada por valores extremos (outliers), na nossa análise optamos por usar a mediana. 
+
+Lembre-se que a escolha da substituição dependerá muito do conjunto de dados que está em análise.
+```python
+# 5. Lista das colunas que queremos preencher
+colunas_para_limpar = ['Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI']
+
+# 6. Loop: para cada coluna da lista...
+for coluna in colunas_para_limpar:
+    mediana = df_tratado[coluna].median() # Calcula a mediana
+    df_tratado[coluna] = df_tratado[coluna].fillna(mediana) # Preenche os NaNs com a mediana
+
+# 7. Verificar se limpamos tudo (deve dar tudo zero)
+print(df_tratado.isnull().sum())
+
+```
+
+Parte 3: Operações Numéricas e Estatísticas
