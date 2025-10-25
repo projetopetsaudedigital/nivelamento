@@ -24,13 +24,15 @@ Ele trabalha com matrizes e arranjos multidimensionais, permitindo cálculos rá
 
 Primeiro, importamos a biblioteca:
 
+Usamos 'np' como um apelido (para não precisar repetir 'numpy' novamente.
+
 ```python
-# Usamos 'np' como um apelido (para não precisar repetir 'numpy' novamente.
 import numpy as np
+```
+1. Criando um Array Simples
+Vamos criar um array (um vetor) de 1 dimensão. Todos os valores devem ser do mesmo tipo, por exemplo, todos os números decimais ou todos os números inteiros.
 
-# Criando um Array Simples
-# Vamos criar um array (um vetor) de 1 dimensão. Todos os valores devem ser do mes
-
+```python
 # Criando um array simples de números inteiros
 arr = np.array([10, 20, 30, 40, 50], np.int16)
 print("Array:", arr)
@@ -38,9 +40,10 @@ print("Array:", arr)
 
 Ao executar o código, podemos ver o resultado. Note que aparecem os números escolhidos.
 
-```python
-Operações Vetorizadas
+2. Operações Vetorizadas
+
 Veja como é fácil aplicar operações a todos os números de uma vez:
+```python
 # Operações matemáticas vetorizadas
 print("Multiplicado por 2:", arr * 2)
 print("Soma total:", arr.sum())
@@ -52,8 +55,10 @@ Percebam que o NumPy multiplicou cada número do array por 2. Depois, o numpy so
 
 Agora iremos fazer um pouco diferente, ao invés de criarmos um array de uma dimensão, como fizemos antes, vamos criar um array bidimensional, também chamado de matriz. Uma estrutura composta de valores organizados em linhas e colunas, no nosso caso, vamos criar uma matriz de 2 linhas e 3 colunas.
 
-Matrizes (Array Bidimensional)
+3. Matrizes (Array Bidimensional)
+
 Também podemos criar matrizes (linhas e colunas):
+
 ```python
 # Criando uma matriz de 2 linhas e 3 colunas
 matriz = np.array([[1, 2, 3], [4, 5, 6]])
@@ -80,11 +85,13 @@ Parte 1: Importando e Conhecendo os Dados
 O primeiro passo é carregar os dados para o ambiente de análise e fazer uma primeira inspeção, para conhecer os dados. 
 
 Mas antes disso, vamos importar o pandas e o numpy, usando o comando:
+
 ```python
 import pandas as pd
 import numpy as np
 ```
 Agora, vamos ler o arquivo CSV e criar uma "tabela" que o Pandas chama de DataFrame.
+
 ```python
 df = pd.read_csv('diabetes.csv')
 ```
@@ -163,6 +170,9 @@ for coluna in colunas_para_limpar:
 
 # 7. Verificar se limpamos tudo (deve dar tudo zero)
 print(df_tratado.isnull().sum())
+```
+
+Parte 3: Operações Numéricas e Estatísticas
 
 ```
 
