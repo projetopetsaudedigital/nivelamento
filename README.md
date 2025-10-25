@@ -223,14 +223,14 @@ Analisando a linha resultado (Outcome), podemos ver quais fatores têm a correla
 
 Obs: maior em relação às outras variáveis, observe:
 
-Pregnancies: 0.221
-**Glucose: 0.492**
-BloodPressure: 0.165
-SkinThickness: 0.214
-Insulin: 0.203
-BMI: 0.312
-DiabetesPedigreeFunction: 0.173
-Age: 0.238
+* Pregnancies: 0.221
+* **Glucose: 0.492**
+* BloodPressure: 0.165
+* SkinThickness: 0.214
+* Insulin: 0.203
+* BMI: 0.312
+* DiabetesPedigreeFunction: 0.173
+* Age: 0.238
 
 Neste projeto, nós conseguimos:
 
