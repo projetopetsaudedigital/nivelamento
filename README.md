@@ -97,13 +97,22 @@ A forma como você agrupa os números nos colchetes vai definir exatamente como 
 ## 🛠️ Ferramenta 2: Pandas
 
 
-Enquanto o numpy lida com as operações numéricas, o pandas lida com a manipulação de dados estruturados, como banco de dados, planilhas e tabelas. Mas o que o pandas faz? Ele lê, limpa, transforma, analisa e representa visualmente os dados em formato de tabelas. As suas principais estruturas são o DataFrame e a Series, onde o DataFrame é a tabela inteira e a Series é uma coluna da tabela.
+Enquanto o numpy lida com as operações numéricas, o pandas lida com a manipulação de dados estruturados, como banco de dados, planilhas e tabelas. 
+
+
+Mas o que o pandas faz? 
+
+
+Ele **lê**, **limpa**, **transforma**, **analisa** e **representa visualmente os dados em formato de tabelas**. As suas principais estruturas são o DataFrame e a Series:
+
+* DataFrame é a tabela inteira
+* Series é uma coluna da tabela
 
 
 ### Prática com NumPy e Pandas
 
 
-Agora que vimos o básico de operações numéricas com NumPy, vamos usar o Pandas (que usa o NumPy por baixo dos panos) para importar, limpar e analisar um conjunto de dados real.
+Agora que vimos o básico de operações numéricas com NumPy, vamos usar o Pandas (que usa o NumPy por baixo dos panos) para importar, limpar e analisar um conjunto de dados.
 
 
 Usaremos um conjunto de dados sobre diabetes (diabetes.csv).
@@ -217,6 +226,28 @@ for coluna in colunas_para_limpar:
 # 7. Verificar se limpamos tudo (deve dar tudo zero)
 print(df_tratado.isnull().sum())
 ```
+
+
+Verificando Dados Duplicados
+
+
+Outro tipo de verificação é ver se há algum dado (linhas repetidas) duplicado.
+
+
+```python
+# Verifica se há alguma linha duplicada (retorna 0 se não houver)
+print(df.duplicated().sum())
+```
+
+
+Havendo dados duplicados, o comando abaixo remove as linhas repetidas:
+
+
+```python
+# Comando para remover linhas duplicadas (apenas se houver)
+# df.drop_duplicates(inplace=True)
+```
+
 
 Parte 3: Operações Numéricas e Estatísticas
 
