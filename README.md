@@ -217,7 +217,7 @@ print(df_tratado.corr())
 
 Analisando a linha Resultado (Outcome), notamos que a Glicose (Glucose) possui a correlação positiva mais forte. Isso faz total sentido clinicamente, já que níveis elevados de glicose são o principal indicador usado para diagnosticar o diabetes.
 
-# Observe:
+Observe:
 
 * Pregnancies: 0.221
 * **Glucose: 0.492**
