@@ -1,4 +1,4 @@
-# 🚀 Projeto de Introdução à Análise de Dados com Python
+# 🚀 SPRINT II - Introdução à Análise de Dados com Python
 
 Olá, pessoal! Bem-vindos a este repositório. O objetivo é explicar um pouco sobre o universo da análise de dados, mostrando um fluxo de trabalho básico.
 
@@ -210,9 +210,10 @@ Será que o nível de glicose aumenta conforme o IMC aumenta?
 Uma maneira de medir a força da relação entre duas variáveis numéricas é calcular a correlação.
 
 Podemos calcular a correlação: um número de -1 a 1 que mede a força da relação entre duas variáveis.
+
 Em que 
-Perto de 1: Correlação muito forte 
-Perto de 0: Sem correlação clara (fraca)
+* Perto de 1: Correlação muito forte 
+* Perto de 0: Sem correlação clara (fraca)
 
 ```python
 # Calcula a matriz de correlação
@@ -232,11 +233,11 @@ Obs: maior em relação às outras variáveis, observe:
 * DiabetesPedigreeFunction: 0.173
 * Age: 0.238
 
-Neste projeto, nós conseguimos:
+Nesta Sprint, nós conseguimos:
 
-Importar e preparar o conjunto de dados diabetes.csv.
-Realizar a limpeza e tratamento de dados faltantes.
-Extrair informações estatísticas e descobrir que a Glicose tem a correlação mais forte com o diagnóstico neste conjunto de dados.
+1. Importar e preparar o conjunto de dados `diabetes.csv`.
+2. Realizar a limpeza e tratamento de dados faltantes.
+3. Extrair informações estatísticas e descobrir que a Glicose tem a correlação mais forte com o diagnóstico neste conjunto de dados.
 
 Dominar essas técnicas nos auxilia na tomada de decisão, no entendimento sobre o perfil de nossos pacientes e otimização de tratamentos. 
 
