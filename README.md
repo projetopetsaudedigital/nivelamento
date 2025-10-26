@@ -174,11 +174,20 @@ df = pd.read_csv('diabetes.csv')
 ### Conhecendo os Dados
 
 ```python
-# Ver as primeiras 5 linhas da tabela
+# Visualizar as primeiras 5 linhas da tabela (visualizar o início da tabela)
 print(df.head())
 
-# Ver o tamanho (linhas, colunas)
-print(df.shape) # Resultado: (768, 9)
+# Visualizar as últimas 5 linhas da tabela (linhas finais)
+print(df.tail())
+
+# Visualizar o tamanho das tabelas (linhas, colunas)
+print(df.shape)
+
+# Visualizar os nomes de todas as colunas (mostra todas as variáveis que têm no conjunto de dados na ordem em que elas aparecem no conjunto de dados)
+print(df.columns)
+
+# Visualizar uma linha aleatória (visão geral dos dados)
+print(df.sample())
 
 # Ver um resumo dos tipos de dados e se há valores nulos
 print(df.info())
