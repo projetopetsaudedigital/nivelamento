@@ -41,7 +41,7 @@ import numpy as np
 ### 1. Criando um Array Simples
 
    
-Vamos criar um array (um vetor) de 1 dimensão. 
+Vamos criar um array (um vetor) de UMA dimensão. 
 
 
 Todos os valores devem ser do mesmo tipo, por exemplo, todos os números decimais ou todos os números inteiros.
@@ -154,7 +154,7 @@ df = pd.read_csv('diabetes.csv')
 ```
 
 
-### Conhecendo os dados
+### Conhecendo os Dados
 
 ```python
 # Ver as primeiras 5 linhas da tabela
@@ -216,7 +216,7 @@ print(df_tratado.isna().sum())
 Agora sim vemos os dados faltantes. Dos 768 pacientes, 227 estão com o dado de medida da dobra cutânea faltando, e 374 com o dado da insulina faltando.
 
 
-### Preenchendo os dados faltantes
+### Preenchendo os Dados Faltantes
 
 
 Poderíamos substituir os dados ausentes por zero usando o comando:
@@ -255,7 +255,7 @@ print(df.duplicated().sum())
 ```
 
 
-Havendo dados duplicados, o comando abaixo remove as linhas repetidas:
+Havendo Dados Duplicados, o comando abaixo remove as linhas repetidas:
 
 
 ```python
@@ -264,7 +264,7 @@ Havendo dados duplicados, o comando abaixo remove as linhas repetidas:
 ```
 
 
-### Verificando colunas específicas (Ex: idade)
+### Verificando Colunas Específicas (Ex: idade)
 
 
 Para visualizarmos dados de colunas específicas usamos os comandos abaixo. Servem para investigar e encontrar inconsistências, como erros de digitação ou valores inesperados.
