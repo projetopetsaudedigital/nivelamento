@@ -216,8 +216,13 @@ A etapa de limpeza é uma etapa fundamental, é o momento em que verificamos se 
 
 Executando o df.isna( ).sum( ), vimos que NÃO há dados "faltantes" (NaN). 
 
+<img width="928" height="397" alt="4" src="https://github.com/user-attachments/assets/f4a315be-f297-4ebe-b393-4a529df12fe3" />
+
 
 Porém, ao investigar os dados mais adiante, usando o df.describe(), percebemos que os dados ausentes foram, na verdade, preenchidos com o número zero (0).
+
+
+<img width="931" height="531" alt="5" src="https://github.com/user-attachments/assets/7a996aac-3f28-42c3-b24d-49d3059ae8c7" />
 
 
 Sendo assim, sabemos que é fisicamente impossível ter valor de glicose 0 ou de pressão arterial 0. Ou seja, isso significa que existem dados faltantes no conjunto de dados.
@@ -237,6 +242,9 @@ df_tratado[colunas_problematicas] = df_tratado[colunas_problematicas].replace(0,
 # 4. Verificar quantos dados faltantes (NaN) temos agora
 print(df_tratado.isna().sum())
 ```
+
+
+<img width="940" height="635" alt="6" src="https://github.com/user-attachments/assets/741b7709-719b-4349-a703-a53de0246f10" />
 
 
 Agora sim vemos os dados faltantes. Dos 768 pacientes, 227 estão com o dado de medida da dobra cutânea faltando, e 374 com o dado da insulina faltando.
@@ -269,6 +277,9 @@ print(df_tratado.isnull().sum())
 ```
 
 
+<img width="933" height="639" alt="7" src="https://github.com/user-attachments/assets/eeff40dc-8b1e-4586-a670-c9c90480c4fd" />
+
+
 ### Verificando Dados Duplicados
 
 
@@ -288,6 +299,9 @@ Havendo Dados Duplicados, o comando abaixo remove as linhas repetidas:
 # Comando para remover linhas duplicadas (apenas se houver)
 # df.drop_duplicates(inplace=True)
 ```
+
+
+<img width="933" height="178" alt="8" src="https://github.com/user-attachments/assets/c60fbd47-9fb6-4d8a-96f6-88dfde8697e0" />
 
 
 ### Verificando Colunas Específicas (Ex: idade)
