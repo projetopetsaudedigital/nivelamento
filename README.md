@@ -17,7 +17,7 @@ Esse conhecimento nos ajuda a tomar decisões mais inteligentes, otimizar produt
 Para escrever e executar os códigos em Python, podemos instalar no computador o Anaconda, uma distribuição do Python, e escolher a ferramenta JupyterLab. 
 
 
-<img width="1280" height="720" alt="vlcsnap-2025-10-03-14h28m46s242" src="https://github.com/user-attachments/assets/6b4cc384-677c-4343-9802-09f1ceabf991" />
+<img width="1600" height="829" alt="c3b8c4be-a0e9-470c-9fac-a07b5c7f85e0" src="https://github.com/user-attachments/assets/1fd57922-673d-49c5-b851-c2edd2da4bd9" />
 
 
 Porém, vocês também podem optar pelo Google Colab, um servidor que também permite escrever e executar código em Python diretamente no seu navegador. É só digitar Google Colab no Google que o servidor aparece.
