@@ -324,7 +324,10 @@ print(df_tratado['Age'].value_counts().head())
 ```
 
 
-Podemos observar os valores: 22, 21, 25 são os mais frequentes, o que significa um público de jovens adultos.
+<img width="935" height="693" alt="9" src="https://github.com/user-attachments/assets/25455ebf-8847-4c8b-9885-0e87efbc8405" />
+
+
+Observe os valores: 22, 21, 25 são os mais frequentes, o que significa um público de jovens adultos.
 
 
 ## Parte 3: Operações Numéricas e Estatísticas
@@ -338,7 +341,10 @@ print(df_tratado.describe())
 ```
 
 
-Dessa forma, obtemos o valor da média, desvio padrão, valor mínimo, valor máximo e os quartis de colunas, e assim temos um panorama da saúde do grupo. Esse comando também identifica outliers, simetria dos dados.
+<img width="1031" height="591" alt="10" src="https://github.com/user-attachments/assets/427fbed2-32fd-4795-8797-19e019af4ba8" />
+
+
+Dessa forma, obtemos o valor da média, desvio padrão, valor mínimo, valor máximo e os quartis de colunas, e assim temos um panorama da saúde do grupo. Esse comando também identifica outliers, simetria dos dados. Como já havíamos feito!
 
 
 O resumo estatístico geral é muito útil, mas para fazer cálculos mais específicos usamos o Numpy. 
@@ -356,6 +362,9 @@ Podemos agrupar os dados pela coluna Outcome (o resultado) e calcular a média d
 # Agrupa por 'Outcome' e calcula a média de todas as outras colunas
 print(df_tratado.groupby('Outcome').mean())
 ```
+
+
+<img width="1015" height="383" alt="11" src="https://github.com/user-attachments/assets/7cbd6cae-c162-4e4e-80c8-398af980d97f" />
 
 
 Ao excutar, vemos que o nível médio de 'Glucose' é visivelmente maior no grupo 1 (142.13) isto é, nos pacientes com diabetes, do que no grupo 0 (110.68) pacientes sem diabetes.
@@ -380,6 +389,9 @@ Uma maneira de medir a força da relação é calcular o coeficiente de correla�
 # Calcula a matriz de correlação
 print(df_tratado.corr())
 ```
+
+
+<img width="1154" height="715" alt="12" src="https://github.com/user-attachments/assets/31c8710b-2c48-4948-8f64-172b16e048a8" />
 
 
 Analisando a linha Resultado (Outcome), notamos que a Glicose (Glucose) possui a correlação positiva mais forte. Isso faz total sentido clinicamente, já que níveis elevados de glicose são o principal indicador usado para diagnosticar o diabetes.
