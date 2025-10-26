@@ -70,7 +70,16 @@ print("Desvio padrão:", arr.std())
 ```
 
 
-Percebam que o NumPy multiplicou cada número do array por 2. Depois, o numpy somou todos os números que estão dentro do array, obtendo um valor de 150. Após isso, ele somou o valor total de 150 e dividiu pela quantidade de números (5), obtendo assim o valor da média. E, por fim, ele mediu o quão “dispersos” estão os dados em relação à média, fornecendo o valor do desvio padrão.
+Percebam que o NumPy multiplicou cada número do array por 2. 
+
+
+Depois, o numpy somou todos os números que estão dentro do array, obtendo um valor de 150. 
+
+
+Após isso, ele somou o valor total de 150 e dividiu pela quantidade de números (5), obtendo assim o valor da média. 
+
+
+E, por fim, ele mediu o quão “dispersos” estão os dados em relação à média, fornecendo o valor do desvio padrão.
 
 
 Agora iremos fazer um pouco diferente, ao invés de criarmos um array de uma dimensão, como fizemos antes, vamos criar um array bidimensional, também chamado de matriz. Uma estrutura composta de valores organizados em linhas e colunas, no nosso caso, vamos criar uma matriz de 2 linhas e 3 colunas.
@@ -253,6 +262,29 @@ Havendo dados duplicados, o comando abaixo remove as linhas repetidas:
 # Comando para remover linhas duplicadas (apenas se houver)
 # df.drop_duplicates(inplace=True)
 ```
+
+
+Agora iremos verificar/investigar colunas específicas (Ex: idade)
+
+
+Para visualizarmos dados de colunas específicas usamos os comandos abaixo. Servem para investigar e encontrar inconsistências, como erros de digitação ou valores inesperados.
+
+```python
+# Retorna uma lista com valores únicos (quais são?)
+# Servem para investigar colunas específicas e encontrar inconsistências, como erros de digitação ou valores inesperados. 
+print(df_tratado['Age'].unique()) 
+
+# Retorna a contagem de quantos valores únicos existem (quantos são?)
+# Por exemplo, se você espera encontrar 2 valores únicos para a coluna “gênero” e o nunique retorna 5, há um erro, esse dado precisa ser limpo. 
+print(df_tratado['Age'].nunique())
+
+# Retorna os valores únicos e a contagem de quantas vezes cada um aparece.
+# Ou seja, mostra as categorias e a proporção de cada uma. Ex: Qual a idade (Age) mais frequente? 
+print(df_tratado['Age'].value_counts().head())
+```
+
+
+Podemos observar os valores: 22, 21, 25 são os mais frequentes, o que significa um público de jovens adultos.
 
 
 Parte 3: Operações Numéricas e Estatísticas
