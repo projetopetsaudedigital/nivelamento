@@ -38,7 +38,7 @@ Usamos 'np' como um apelido (para não precisar repetir 'numpy' novamente).
 ```python
 import numpy as np
 ```
-1. Criando um Array Simples
+### 1. Criando um Array Simples
 
    
 Vamos criar um array (um vetor) de 1 dimensão. 
@@ -57,7 +57,7 @@ print("Array:", arr)
 Ao executar o código, podemos ver o resultado. Note que aparecem os números escolhidos.
 
 
-2. Operações Vetorizadas
+### 2. Operações Vetorizadas
 
 
 Veja como é fácil aplicar operações a todos os números de uma vez:
@@ -85,7 +85,7 @@ E, por fim, ele mediu o quão “dispersos” estão os dados em relação à m�
 Agora iremos fazer um pouco diferente, ao invés de criarmos um array de uma dimensão, como fizemos antes, vamos criar um array bidimensional, também chamado de matriz. Uma estrutura composta de valores organizados em linhas e colunas, no nosso caso, vamos criar uma matriz de 2 linhas e 3 colunas.
 
 
-3. Matrizes (Array Bidimensional)
+### 3. Matrizes (Array Bidimensional)
 
 
 Também podemos criar matrizes (linhas e colunas):
@@ -115,7 +115,7 @@ Quando usamos o comando T, realizamos o processo de transposição. Basicamente,
 Enquanto o numpy lida com as operações numéricas, o pandas lida com a manipulação de dados estruturados, como banco de dados, planilhas e tabelas. 
 
 
-Mas o que o pandas faz? 
+### Mas o que o pandas faz? 
 
 
 Ele **lê**, **limpa**, **transforma**, **analisa** e **representa visualmente os dados em formato de tabelas**. As suas principais estruturas são o DataFrame e a Series:
@@ -124,7 +124,7 @@ Ele **lê**, **limpa**, **transforma**, **analisa** e **representa visualmente o
 * Series é uma coluna da tabela
 
 
-### Prática com NumPy e Pandas
+## Prática com NumPy e Pandas
 
 
 Agora que vimos o básico de operações numéricas com NumPy, vamos usar o Pandas (que usa o NumPy por baixo dos panos) para importar, limpar e analisar um conjunto de dados.
@@ -133,7 +133,7 @@ Agora que vimos o básico de operações numéricas com NumPy, vamos usar o Pand
 Usaremos um conjunto de dados sobre diabetes (diabetes.csv).
 
 
-Parte 1: Importando e Conhecendo os Dados
+## Parte 1: Importando e Conhecendo os Dados
 
 
 O primeiro passo é carregar os dados para o ambiente de análise e fazer uma primeira inspeção, para conhecer os dados. 
@@ -154,7 +154,7 @@ df = pd.read_csv('diabetes.csv')
 ```
 
 
-## Conhecendo os dados
+### Conhecendo os dados
 
 ```python
 # Ver as primeiras 5 linhas da tabela
@@ -168,7 +168,7 @@ print(df.info())
 ```
 
 
-Conhecendo as Colunas:
+### Conhecendo as Colunas:
 
 
 - Pregnancies: Número de gestações.
@@ -182,7 +182,7 @@ Conhecendo as Colunas:
 - Outcome: Resultado (1 = tem diabetes, 0 = não tem).
 
 
-Parte 2: Limpeza e Tratamento dos Dados
+## Parte 2: Limpeza e Tratamento dos Dados
 
 
 A etapa de limpeza é uma etapa fundamental, é o momento em que verificamos se no nosso conjunto de dados há erros de digitação, dados faltantes, tipo de dado errado. A limpeza garante que a nossa análise seja confiável.
@@ -216,7 +216,7 @@ print(df_tratado.isna().sum())
 Agora sim vemos os dados faltantes. Dos 768 pacientes, 227 estão com o dado de medida da dobra cutânea faltando, e 374 com o dado da insulina faltando.
 
 
-Preenchendo os dados faltantes
+### Preenchendo os dados faltantes
 
 
 Poderíamos substituir os dados ausentes por zero usando o comando:
@@ -243,7 +243,7 @@ print(df_tratado.isnull().sum())
 ```
 
 
-Verificando Dados Duplicados
+### Verificando Dados Duplicados
 
 
 Outro tipo de verificação é ver se há algum dado (linhas repetidas) duplicado.
@@ -264,7 +264,7 @@ Havendo dados duplicados, o comando abaixo remove as linhas repetidas:
 ```
 
 
-Agora iremos verificar/investigar colunas específicas (Ex: idade)
+### Verificando colunas específicas (Ex: idade)
 
 
 Para visualizarmos dados de colunas específicas usamos os comandos abaixo. Servem para investigar e encontrar inconsistências, como erros de digitação ou valores inesperados.
@@ -287,10 +287,10 @@ print(df_tratado['Age'].value_counts().head())
 Podemos observar os valores: 22, 21, 25 são os mais frequentes, o que significa um público de jovens adultos.
 
 
-Parte 3: Operações Numéricas e Estatísticas
+## Parte 3: Operações Numéricas e Estatísticas
 
 
-Para ter um resumo estatístico das colunas numéricas, usamos:
+### Para ter um resumo estatístico das colunas numéricas, usamos:
 
 ```python
 # Usamos o .describe() no DataFrame TRATADO
@@ -304,7 +304,7 @@ Dessa forma, obtemos o valor da média, desvio padrão, valor mínimo, valor má
 O resumo estatístico geral é muito útil, mas para fazer cálculos mais específicos usamos o Numpy. 
 
 
-Se quisermos, por exemplo, fazer um agrupamento? Comparando grupos diferentes...
+### Se quisermos, por exemplo, fazer um agrupamento? Comparando grupos diferentes...
 
 
 Ex: Como as características dos pacientes com diabetes se comparam às dos pacientes sem diabetes?
@@ -324,7 +324,7 @@ Ao excutar, vemos que o nível médio de 'Glucose' é visivelmente maior no grup
 Esse tipo de agrupamento é fundamental para identificar padrões.
 
 
-Além do resumo estatístico geral, também podemos entender como as variáveis se relacionam entre si e responder perguntas como:
+### Além do resumo estatístico geral, também podemos entender como as variáveis se relacionam entre si e responder perguntas como:
 
 
 Quais fatores têm maior relação com o diabetes? Será que o nível de glicose aumenta conforme o IMC aumenta? 
@@ -345,7 +345,7 @@ print(df_tratado.corr())
 Analisando a linha Resultado (Outcome), notamos que a Glicose (Glucose) possui a correlação positiva mais forte. Isso faz total sentido clinicamente, já que níveis elevados de glicose são o principal indicador usado para diagnosticar o diabetes.
 
 
-Observe:
+### Observe:
 
 
 * Pregnancies: 0.221
@@ -358,7 +358,7 @@ Observe:
 * Age: 0.238
 
 
-Nesta Sprint, nós conseguimos:
+### Nesta Sprint, nós conseguimos:
 
 
 1. Importar e preparar o conjunto de dados `diabetes.csv`.
