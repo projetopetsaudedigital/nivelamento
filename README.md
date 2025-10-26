@@ -1,8 +1,9 @@
-## 🔬 Projeto de Pesquisa
+## 🔬 Projeto PET Saúde/Informação e Saúde Digital
+(PET Saúde/I&SD)
 
 ### **Inovação em Saúde Digital na Atenção Primária à Saúde: Tecnologias para Promoção do Envelhecimento Saudável**
 
-Este repositório é parte integrante do projeto de pesquisa **"Inovação em Saúde Digital na Atenção Primária à Saúde: Tecnologias para Promoção do Envelhecimento Saudável"**, especificamente do **Grupo 3 – Big Data e Inovação Digital na Gestão do Cuidado**.
+Este repositório é parte integrante do projeto PET **"Inovação em Saúde Digital na Atenção Primária à Saúde: Tecnologias para Promoção do Envelhecimento Saudável"**, especificamente do **Grupo 3 – Big Data e Inovação Digital na Gestão do Cuidado**.
 
 #### **Foco do Grupo 3:**
 - **Desenvolvimento e análise de ferramentas digitais** baseadas nos dados do e-SUS APS
@@ -22,10 +23,6 @@ Este repositório é parte integrante do projeto de pesquisa **"Inovação em Sa
 - Promover envelhecimento saudável através de tecnologias digitais
 
 ---
-
-**🎯 Grupo 3:** Big Data e Inovação Digital na Gestão do Cuidado o Foco
-
-**🎯 Objetivo:** Fornecer uma base sólida em desenvolvimento Python, desde conceitos fundamentais até técnicas avançadas de análise de dados e machine learning, com foco prático e aplicações reais no contexto de **saúde digital e gestão do cuidado**, contribuindo para o desenvolvimento de ferramentas digitais inovadoras na Atenção Primária à Saúde.
 
 # 📚 Repositório NIVELAMENTO - Projetos de Desenvolvimento
 
