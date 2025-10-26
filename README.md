@@ -23,6 +23,8 @@ Para escrever e executar os códigos em Python, podemos instalar no computador o
 Porém, vocês também podem optar pelo Google Colab, um servidor que também permite escrever e executar código em Python diretamente no seu navegador. É só digitar Google Colab no Google que o servidor aparece.
 
 
+<img width="1600" height="791" alt="colab" src="https://github.com/user-attachments/assets/ca39a003-7ae1-4eed-bbdd-e7a1ccac34d1" />
+
 
 ## 🛠️ Ferramenta 1: NumPy (Python Numérico)
 
@@ -63,6 +65,9 @@ print("Array:", arr)
 Ao executar o código, podemos ver o resultado. Note que aparecem os números escolhidos.
 
 
+<img width="922" height="351" alt="1" src="https://github.com/user-attachments/assets/85c0fa84-b994-47ce-ae5d-da18058460a8" />
+
+
 ### 2. Operações Vetorizadas
 
 
@@ -74,6 +79,9 @@ print("Soma total:", arr.sum())
 print("Média:", arr.mean())
 print("Desvio padrão:", arr.std())
 ```
+
+
+<img width="938" height="281" alt="2" src="https://github.com/user-attachments/assets/042d1369-958d-43d0-af8b-3cdd310c9a59" />
 
 
 Percebam que o NumPy multiplicou cada número do array por 2. 
@@ -104,6 +112,9 @@ print("Matriz:\n", matriz)
 # '.T' calcula a transposta (inverte linhas e colunas)
 print("Transposta:\n", matriz.T)
 ```
+
+
+<img width="942" height="389" alt="3" src="https://github.com/user-attachments/assets/49b8674b-f64c-43e3-9086-07b34d0b8720" />
 
 
 A forma como você agrupa os números nos colchetes vai definir exatamente como essa matriz será montada. Percebam que temos duas listas internas. A primeira, [1, 2, 3], se torna a primeira linha, e a segunda, [4, 5, 6], se torna a segunda linha.
