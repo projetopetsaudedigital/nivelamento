@@ -229,14 +229,6 @@ pip install -r requirements.txt
 - **Banco de Dados:** pgAdmin, DBeaver
 - **Visualização:** Jupyter Lab, Google Colab
 
-## 🤝 Contribuição
-
-Este repositório é educacional e está aberto para:
-- Sugestões de melhorias
-- Correções de bugs
-- Adição de novos exemplos
-- Melhoria da documentação
-
 
 ## 📄 Equipe
 
