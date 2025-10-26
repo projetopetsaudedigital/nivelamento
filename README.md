@@ -1,3 +1,32 @@
+## 🔬 Projeto de Pesquisa
+
+### **Inovação em Saúde Digital na Atenção Primária à Saúde: Tecnologias para Promoção do Envelhecimento Saudável**
+
+Este repositório é parte integrante do projeto de pesquisa **"Inovação em Saúde Digital na Atenção Primária à Saúde: Tecnologias para Promoção do Envelhecimento Saudável"**, especificamente do **Grupo 3 – Big Data e Inovação Digital na Gestão do Cuidado**.
+
+#### **Foco do Grupo 3:**
+- **Desenvolvimento e análise de ferramentas digitais** baseadas nos dados do e-SUS APS
+- **Melhoria da gestão do cuidado** e suporte à decisão clínica
+- **Condições Crônicas Não-Transmissíveis** como foco principal
+- **Integração com Grupo Big Data Analytics** para análise de dados
+
+#### **Dimensões do INMSD Priorizadas:**
+- 🧠 **Inteligência Analítica** - Desenvolvimento de algoritmos e modelos preditivos
+- 🔗 **Interoperabilidade** - Integração entre sistemas e fontes de dados
+- 📊 **Análise de Dados em Saúde** - Processamento e interpretação de dados clínicos
+
+#### **Objetivos Específicos:**
+- Criar ferramentas de apoio à decisão clínica
+- Desenvolver modelos preditivos para condições crônicas
+- Implementar soluções de big data para gestão do cuidado
+- Promover envelhecimento saudável através de tecnologias digitais
+
+---
+
+**🎯 Grupo 3:** Big Data e Inovação Digital na Gestão do Cuidado o Foco
+
+**🎯 Objetivo:** Fornecer uma base sólida em desenvolvimento Python, desde conceitos fundamentais até técnicas avançadas de análise de dados e machine learning, com foco prático e aplicações reais no contexto de **saúde digital e gestão do cuidado**, contribuindo para o desenvolvimento de ferramentas digitais inovadoras na Atenção Primária à Saúde.
+
 # 📚 Repositório NIVELAMENTO - Projetos de Desenvolvimento
 
 Este repositório contém uma coleção abrangente de projetos educacionais organizados por níveis de complexidade, cobrindo desde conceitos fundamentais de Python até técnicas avançadas de análise de dados e machine learning.
@@ -212,6 +241,7 @@ Este repositório é educacional e está aberto para:
 - Adição de novos exemplos
 - Melhoria da documentação
 
+
 ## 📄 Licença e Equipe
 
 Este repositório pertence ao **Projeto PET Saúde Digital**.
@@ -249,5 +279,3 @@ Este repositório pertence ao **Projeto PET Saúde Digital**.
   📧 [ricardo.rals.dev@gmail.com](mailto:ricardo.rals.dev@gmail.com)
 
 ---
-
-**🎯 Objetivo:** Fornecer uma base sólida em desenvolvimento Python, desde conceitos fundamentais até técnicas avançadas de análise de dados e machine learning, com foco prático e aplicações reais.
