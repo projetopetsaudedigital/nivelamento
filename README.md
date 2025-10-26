@@ -212,28 +212,41 @@ Este repositório é educacional e está aberto para:
 - Adição de novos exemplos
 - Melhoria da documentação
 
-## 📄 Licença
+## 📄 Licença e Equipe
 
-Este repositório pertence ao projeto PET Saúde Digital.
+Este repositório pertence ao **Projeto PET Saúde Digital**.
 
-Coordenador: 
-Prof. Marcio Galvão Guimarães de Oliveira   <mgalvao@ufba.br>
+### 👨‍💼 **Coordenação**
+- **Prof. Marcio Galvão Guimarães de Oliveira**  
+  📧 [mgalvao@ufba.br](mailto:mgalvao@ufba.br)
 
-Tutores:  
-Prof. Cláudio Rodolfo Sousa de Oliveira  <claudiorodolfo@ifba.edu.br>
-Prof. Sóstenes Mistro   <smistro@gmail.com>
-Prof. Gidevaldo Novais dos Santos   <gnovais@uesb.edu.br>
+### 👨‍🏫 **Tutores**
+- **Prof. Cláudio Rodolfo Sousa de Oliveira**  
+  📧 [claudiorodolfo@ifba.edu.br](mailto:claudiorodolfo@ifba.edu.br)
+- **Prof. Sóstenes Mistro**  
+  📧 [smistro@gmail.com](mailto:smistro@gmail.com)
+- **Prof. Gidevaldo Novais dos Santos**  
+  📧 [gnovais@uesb.edu.br](mailto:gnovais@uesb.edu.br)
 
-Bolsistas: 
-Carlos Daniel de Jesus Pereira  <pereiracarlos@ufba.br>
-Débora Costa Santos <santosdebora916@gmail.com>
-Fernanda Souza Silva Santos <fernandasouzadev@gmail.com>
-Gabryelle Beatriz Duarte Moraes <gabryelleddev@gmail.com>
-João Henrique de Jesus Silva    <joaohenriquejao21@gmail.com>
-Lucas Lênin de Carvalho Santos  <lucasleninhf@gmail.com>
-Lucas Silva Santos  <lsilvasantos640@gmail.com>
-Rafaela Dias dos Santos <rafaeladias192002@gmail.com>
-Ricardo Augusto Lima da Silva   <ricardo.rals.dev@gmail.com>
+### 👨‍🎓 **Bolsistas**
+- **Carlos Daniel de Jesus Pereira**  
+  📧 [pereiracarlos@ufba.br](mailto:pereiracarlos@ufba.br)
+- **Débora Costa Santos**  
+  📧 [santosdebora916@gmail.com](mailto:santosdebora916@gmail.com)
+- **Fernanda Souza Silva Santos**  
+  📧 [fernandasouzadev@gmail.com](mailto:fernandasouzadev@gmail.com)
+- **Gabryelle Beatriz Duarte Moraes**  
+  📧 [gabryelleddev@gmail.com](mailto:gabryelleddev@gmail.com)
+- **João Henrique de Jesus Silva**  
+  📧 [joaohenriquejao21@gmail.com](mailto:joaohenriquejao21@gmail.com)
+- **Lucas Lênin de Carvalho Santos**  
+  📧 [lucasleninhf@gmail.com](mailto:lucasleninhf@gmail.com)
+- **Lucas Silva Santos**  
+  📧 [lsilvasantos640@gmail.com](mailto:lsilvasantos640@gmail.com)
+- **Rafaela Dias dos Santos**  
+  📧 [rafaeladias192002@gmail.com](mailto:rafaeladias192002@gmail.com)
+- **Ricardo Augusto Lima da Silva**  
+  📧 [ricardo.rals.dev@gmail.com](mailto:ricardo.rals.dev@gmail.com)
 
 ---
 
