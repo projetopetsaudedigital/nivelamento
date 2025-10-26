@@ -1,5 +1,4 @@
-## 🔬 Projeto PET Saúde/Informação e Saúde Digital
-(PET Saúde/I&SD)
+## 🔬 Projeto PET Saúde/Informação e Saúde Digital (PET Saúde/I&SD)
 
 ### **Inovação em Saúde Digital na Atenção Primária à Saúde: Tecnologias para Promoção do Envelhecimento Saudável**
 
@@ -239,9 +238,7 @@ Este repositório é educacional e está aberto para:
 - Melhoria da documentação
 
 
-## 📄 Licença e Equipe
-
-Este repositório pertence ao **Projeto PET Saúde Digital**.
+## 📄 Equipe
 
 ### 👨‍💼 **Coordenação**
 - **Prof. Marcio Galvão Guimarães de Oliveira**  
