@@ -126,7 +126,8 @@ Observem também que o número de elementos dentro de cada linha define o númer
 Quando usamos o comando T, realizamos o processo de transposição. Basicamente, as linhas da matriz original se tornam as colunas da nova matriz. Como a nossa matriz original tinha 2 linhas e 3 colunas, a transposta passará a ter 3 linhas e 2 colunas.
 
 
-## 🛠️ Ferramenta 2: Pandas
+## 🛠️ Ferramenta 2: Pandas <img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/fcb88c8c-e0b0-41a8-a54a-558df9a0356e" />
+
 
 
 Enquanto o numpy lida com as operações numéricas, o pandas lida com a manipulação de dados estruturados, como banco de dados, planilhas e tabelas. 
