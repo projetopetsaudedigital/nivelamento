@@ -168,7 +168,7 @@ pip install -r requirements.txt
 ## 📋 Projetos por Nível
 
 ### 🟡 **Nível 1 - Intermediário**
-- **Python Avançado:** Coleções, Padrões de projeto, Testes de Software
+- **Python Avançado:** Coleções, padrões de projeto, testes de software
 - **Git/GitHub:** Controle de versão profissional
 - **PostgreSQL:** Banco de dados relacional
 
@@ -214,7 +214,26 @@ Este repositório é educacional e está aberto para:
 
 ## 📄 Licença
 
-Este projeto é destinado a fins educacionais e de aprendizado.
+Este repositório pertence ao projeto PET Saúde Digital.
+
+Coordenador: 
+Prof. Marcio Galvão Guimarães de Oliveira   <mgalvao@ufba.br>
+
+Tutores:  
+Prof. Cláudio Rodolfo Sousa de Oliveira  <claudiorodolfo@ifba.edu.br>
+Prof. Sóstenes Mistro   <smistro@gmail.com>
+Prof. Gidevaldo Novais dos Santos   <gnovais@uesb.edu.br>
+
+Bolsistas: 
+Carlos Daniel de Jesus Pereira  <pereiracarlos@ufba.br>
+Débora Costa Santos <santosdebora916@gmail.com>
+Fernanda Souza Silva Santos <fernandasouzadev@gmail.com>
+Gabryelle Beatriz Duarte Moraes <gabryelleddev@gmail.com>
+João Henrique de Jesus Silva    <joaohenriquejao21@gmail.com>
+Lucas Lênin de Carvalho Santos  <lucasleninhf@gmail.com>
+Lucas Silva Santos  <lsilvasantos640@gmail.com>
+Rafaela Dias dos Santos <rafaeladias192002@gmail.com>
+Ricardo Augusto Lima da Silva   <ricardo.rals.dev@gmail.com>
 
 ---
 
