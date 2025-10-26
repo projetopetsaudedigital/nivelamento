@@ -168,7 +168,7 @@ pip install -r requirements.txt
 ## 📋 Projetos por Nível
 
 ### 🟡 **Nível 1 - Intermediário**
-- **Python Avançado:** Padrões de projeto, OOP
+- **Python Avançado:** Coleções, Padrões de projeto, Testes de Software
 - **Git/GitHub:** Controle de versão profissional
 - **PostgreSQL:** Banco de dados relacional
 
