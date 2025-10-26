@@ -214,7 +214,7 @@ print(df.info())
 A etapa de limpeza é uma etapa fundamental, é o momento em que verificamos se no nosso conjunto de dados há erros de digitação, dados faltantes, tipo de dado errado. A limpeza garante que a nossa análise seja confiável.
 
 
-Executando o df.info(), vimos que NÃO há dados "faltantes" (NaN). 
+Executando o df.isna( ).sum( ), vimos que NÃO há dados "faltantes" (NaN). 
 
 
 Porém, ao investigar os dados mais adiante, usando o df.describe(), percebemos que os dados ausentes foram, na verdade, preenchidos com o número zero (0).
