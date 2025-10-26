@@ -158,7 +158,7 @@ pip install -r requirements.txt
 
 ### Estrutura de Aprendizado Recomendada
 
-1. **Iniciantes:** Comece com `1-advanced-python-language`
+1. **LP Python:** Comece com `1-advanced-python-language`
 2. **Controle de Versão:** Estude `1-profissional-github`
 3. **Banco de Dados:** Explore `1-python-and-postgresql-integration`
 4. **Análise de Dados:** Pratique `2-data-analysing`
