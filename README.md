@@ -415,7 +415,7 @@ Analisando a linha Resultado (Outcome), notamos que a Glicose (Glucose) possui a
 
 1. Importar e preparar o conjunto de dados `diabetes.csv`.
 2. Realizar a limpeza e tratamento de dados faltantes.
-3. Extrair informações estatísticas e descobrir que a Glicose tem a correlação mais forte com o diagnóstico neste conjunto de dados.
+3. Extrair informações estatísticas 
    
 
 Dominar essas técnicas nos auxilia na tomada de decisão, no entendimento sobre o perfil de nossos pacientes e otimização de tratamentos. 
